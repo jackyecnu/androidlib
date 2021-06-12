@@ -40,14 +40,14 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
 //Retrofit
-    implementation 'com.squareup.retrofit2:retrofit:2.6.0'
-    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.6.0'
-    implementation 'com.squareup.retrofit2:converter-scalars:2.6.0'
+    api 'com.squareup.retrofit2:retrofit:2.6.0'
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.6.0'
+    api 'com.squareup.retrofit2:converter-scalars:2.6.0'
     //Okhttp日志拦截器
-    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.0'
-    implementation 'com.google.android.material:material:1.2.1'
+    api 'com.squareup.okhttp3:logging-interceptor:3.8.0'
+    api 'com.google.android.material:material:1.2.1'
     //RxAndroid
-    implementation 'io.reactivex.rxjava2:rxjava:2.2.10'
+    api 'io.reactivex.rxjava2:rxjava:2.2.10'
 
 
 
@@ -65,7 +65,7 @@ dependencies {
     //dialog工具
     implementation 'com.lxj:xpopup:2.2.23'
     //rcvadapter
-    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4'
+    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4'
     // log
     implementation 'com.orhanobut:logger:1.13'
     //图片压缩
