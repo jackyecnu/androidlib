@@ -14,8 +14,7 @@ import android.view.View;
 
 import androidx.appcompat.widget.AppCompatTextView;
 
-import com.lingman.common.R;
-
+import com.lingman.lib.R;
 
 /**
  * Author: Norton

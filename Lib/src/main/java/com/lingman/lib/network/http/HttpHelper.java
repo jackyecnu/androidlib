@@ -1,7 +1,9 @@
 package com.lingman.lib.network.http;
 
 
-import com.norton.network.http.interceptor.HttpHeaderInterceptor;
+
+
+import com.lingman.lib.network.http.interceptor.HttpHeaderInterceptor;
 
 import java.util.concurrent.TimeUnit;
 

@@ -7,8 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 
-import com.lingman.base.app.BaseApplication;
-
+import com.lingman.lib.base.app.BaseApplication;
 
 /**
  * <pre>

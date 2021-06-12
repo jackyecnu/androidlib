@@ -3,7 +3,7 @@ package com.lingman.lib.common.utils;
 import android.content.Context;
 import android.widget.Toast;
 
-import com.lingman.base.app.BaseApplication;
+import com.lingman.lib.base.app.BaseApplication;
 
 
 /**

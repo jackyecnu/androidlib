@@ -2,11 +2,12 @@ package com.lingman.lib.network.http;
 
 import android.content.Intent;
 
-import com.lingman.base.app.AppConfig;
-import com.lingman.base.app.BaseApplication;
-import com.lingman.base.utils.AppManager;
-import com.lingman.common.utils.SPUtils;
-import com.lingman.common.utils.ToastUitl;
+
+import com.lingman.lib.base.app.AppConfig;
+import com.lingman.lib.base.app.BaseApplication;
+import com.lingman.lib.base.utils.AppManager;
+import com.lingman.lib.common.utils.SPUtils;
+import com.lingman.lib.common.utils.ToastUitl;
 
 import org.json.JSONException;
 

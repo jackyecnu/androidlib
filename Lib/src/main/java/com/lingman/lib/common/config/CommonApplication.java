@@ -4,6 +4,7 @@ import android.content.Context;
 
 import androidx.multidex.MultiDex;
 
+import com.lingman.lib.BuildConfig;
 
 import com.lingman.lib.R;
 import com.lingman.lib.base.app.BaseApplication;
