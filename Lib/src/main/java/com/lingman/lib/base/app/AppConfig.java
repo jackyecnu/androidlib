@@ -12,6 +12,7 @@ public class AppConfig {
     public interface BusinessTag {
         int BANNER_DELAY = 5000;
         boolean ENABLE_UPDATE = true;  //是否开启更新功能
+        boolean Test = true; //测试用
     }
 
     //微信等的key
