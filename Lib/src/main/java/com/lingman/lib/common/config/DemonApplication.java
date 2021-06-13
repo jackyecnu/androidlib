@@ -51,10 +51,4 @@ public class DemonApplication extends BaseApplication {
 
     }
 
-
-    @Override
-    protected void attachBaseContext(Context base) {
-        super.attachBaseContext(base);
-        MultiDex.install(this);
-    }
 }
