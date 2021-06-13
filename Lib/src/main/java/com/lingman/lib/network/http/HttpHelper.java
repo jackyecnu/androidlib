@@ -3,6 +3,8 @@ package com.lingman.lib.network.http;
 
 
 
+import com.lingman.lib.R;
+import com.lingman.lib.common.config.DemonApplication;
 import com.lingman.lib.network.http.interceptor.HttpHeaderInterceptor;
 
 import java.util.concurrent.TimeUnit;
@@ -43,7 +45,7 @@ public class HttpHelper {
         retrofit = new Retrofit.Builder()
                 .client(okHttpClient)
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-                .baseUrl(Api.PRODUCT_URL)
+                .baseUrl(DemonApplication.context.getString(R.string.base_api_url))
                 .build();
     }
 

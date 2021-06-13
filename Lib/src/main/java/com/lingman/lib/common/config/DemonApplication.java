@@ -24,7 +24,7 @@ import com.scwang.smartrefresh.layout.footer.ClassicsFooter;
  * Date: 2021/4/11
  * Time: 7:35 PM
  */
-public class CommonApplication extends BaseApplication {
+public class DemonApplication extends BaseApplication {
     @Override
     public void onCreate() {
         super.onCreate();
